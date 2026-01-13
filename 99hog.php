@@ -22,11 +22,6 @@ if ( ! defined( 'WPINC' ) ) {
 define( 'NINETYNINE_HOG_VERSION', '1.0.0' );
 define( 'NINETYNINE_HOG_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 
-// Include the Composer autoloader.
-if ( file_exists( NINETYNINE_HOG_PLUGIN_DIR . 'vendor/autoload.php' ) ) {
-	require_once NINETYNINE_HOG_PLUGIN_DIR . 'vendor/autoload.php';
-}
-
 
 /**
  * The core plugin class that is used to define internationalization,
