@@ -1,0 +1,14 @@
+{
+    "name": "99hog/99hog",
+    "description": "A lean, open-source WordPress plugin that integrates WooCommerce with PostHog for ecommerce event tracking.",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Jules"
+        }
+    ],
+    "require": {
+        "posthog/posthog-php": "^3.7.3"
+    }
+}
