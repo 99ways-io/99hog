@@ -60,6 +60,11 @@ class Ninetynine_Hog {
 		}
 		$this->plugin_name = '99hog';
 
+		// Include the Composer autoloader.
+		if ( file_exists( NINETYNINE_HOG_PLUGIN_DIR . 'vendor/autoload.php' ) ) {
+			require_once NINETYNINE_HOG_PLUGIN_DIR . 'vendor/autoload.php';
+		}
+
 		$this->load_dependencies();
 		$this->define_admin_hooks();
 		$this->define_public_hooks();
