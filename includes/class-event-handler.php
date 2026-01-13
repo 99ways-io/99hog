@@ -41,7 +41,6 @@ class Ninetynine_Hog_Event_Handler {
 		$host    = isset( $this->options['posthog_host'] ) ? $this->options['posthog_host'] : '';
 
 		if ( ! empty( $api_key ) && ! empty( $host ) ) {
-			require_once NINETYNINE_HOG_PLUGIN_DIR . 'vendor/autoload.php';
 			PostHog::init( $api_key, array( 'host' => $host ) );
 		}
 	}
