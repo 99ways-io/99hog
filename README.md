@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> **This repository is archived and no longer maintained.** For WooCommerce and PostHog, use **[99Trace](https://99trace.com)**, 99Ways' maintained plugin: every paid order is sent once from your shop's server, on the visitor who placed it. Source: [99ways-io/99trace-woocommerce-posthog](https://github.com/99ways-io/99trace-woocommerce-posthog).
+
 # 99hog - WooCommerce PostHog Integration
 
 A lean, open-source WordPress plugin that integrates WooCommerce with PostHog for ecommerce event tracking.
